@@ -1,0 +1,154 @@
+body{
+  background: #ccc;
+}
+main{
+  width: 100%;
+  height: auto;
+}
+header{
+  width: 100%;
+  height: auto;
+  background: #fff;
+}
+.mySwiper img{
+  width: 100%;
+  height: auto;
+}
+.produtos{
+  width: 100%;
+  height: auto;
+  float: left;
+  background: #fff;
+  padding-bottom: 3vh;
+}
+.link-card{
+  text-decoration: none;
+  /*color: inherit; mantem a cor padrão */
+  color: #333;
+}
+.card{
+  width: 90%;
+  height: auto;
+  float: left;
+  background: #fff;
+  margin-left: 5%;
+  margin-top: 2vh;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 7px #333;
+}
+.img-card{
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.card h2{
+  width: 90%;
+  height: auto;
+  float: left;
+  /* background: #ff9dff; */
+  margin-left: 5%;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  text-transform: uppercase;
+}
+.desc{
+  width: 90%;
+  height: auto;
+  float: left;
+  /* background: #ff9dff; */
+  margin-left: 5%;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-align: left;
+  color: #333;
+  margin-top: 1vh;
+}
+.classificacao{
+  width: 40%;
+  height: auto;
+  float: right;
+  /* background: yellow; */
+  margin-right: 5%;
+  margin-top: 2vh;
+  text-align: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.classificacao span{
+  color: #d4af37;
+  font-size: 1.1em;
+}
+.preco{
+  width: 40%;
+  height: auto;
+  float: left;
+  /* background: greenyellow; */
+  margin-left: 5%;
+  margin-top: 2vh;
+  text-align: center;
+  margin-bottom: 3vh;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #333;
+}
+.off{
+  width: 15%;
+  height: auto;
+  position: absolute;
+  top: 2vh;
+  left: 0;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.destaque{
+  width: 100%;
+  height: 50vh;
+  /* background: #0F0; */
+  float: left;
+}
+.destaque iframe{
+  width: 100%;
+  height: 50vh;
+}
+footer{
+  width: 100%;
+  height: 35vh;
+  background: #161d27;
+  float: left;
+}
+.logo-footer{
+  width: 15%;
+  height: auto;
+  float: left;
+  margin-left: 10%;
+  margin-top: 5vh;
+  filter: invert(100%);
+}
+.social-footer{
+  width: 60%;
+  height: auto;
+  float: left;
+  /* background: #777; */
+  margin-left: 5%;
+  margin-top: 6vh;
+}
+.icon-social{
+  width: 20%;
+  height: auto;
+  float: left;
+  /* background: #fff; */
+  margin-left: 10%;
+}
+.icon-social img{
+  width: 80%;
+  height: auto;
+  filter: invert(100%);
+  margin-top: 0.6vh;
+  margin-bottom: 2.3vh;
+}
